@@ -6,6 +6,8 @@ header .nav{
     justify-content: space-between;
     display: flex;
     padding: 16px;
+    margin-left: 180px;
+    margin-right: 190px;
 }
 
 header {
@@ -43,7 +45,10 @@ a{
 
 .showcase{
     display: flex;
-    margin: 40px 140px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:40px ;
     align-items: center;
     justify-content: space-between;
 }
@@ -56,7 +61,13 @@ a{
 }
 
 .title{
-    width:700px;
+    width:500px;
+}
+
+.title h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 button{
@@ -65,5 +76,71 @@ button{
     background-color: #3882F6;
     color: white;
 }
+
+
+.content > p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid #ddd; */
+    gap: 20px;
+    padding: 20px;
+    margin: 40px 300px;
+    
+}
+
+.box-one , .box-two , .box-three , .box-four {
+    border: 5px solid rgb(24, 119, 192);
+    border-radius: 10px;
+    text-align:  center;
+}
+
+.boxes p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    padding-bottom: 80px;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote .say , .author{
+    width: 800px;
+    /* padding: 40px 80px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+.author{
+    padding-top: 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
 
 
