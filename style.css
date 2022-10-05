@@ -142,5 +142,57 @@ button{
 
 
 
+.signup{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px ; 
+}
+
+.msg{
+    padding: 20px 50px; 
+    
+     gap: 50px; 
+    
+    /* margin: 50px; */
+    display: flex;
+    border: 3px solid #d2ddf0;
+    background:#3882F6;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.msg > button{
+    border-radius: 8px;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid #d2ddf0;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    bottom:0;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+    height:30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
 
 
